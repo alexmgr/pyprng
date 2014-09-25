@@ -10,6 +10,8 @@ Example usage:
 Random r = new Random(5);
 int i1 = r.nextInt();
 int i2 = r.nextInt();
+System.out.printl(String.format("%08x, %08x", i1, i2))
+// i1 = 0xbb0359bf, i2 = 0x2d35cb58
 ```
 * Bruteforce the internal state of the generator:
 ```
